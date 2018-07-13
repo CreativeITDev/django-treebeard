@@ -584,7 +584,7 @@ class MP_Node(Node):
     """Abstract model to create your own Materialized Path Trees."""
 
     steplen = 4
-    alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    alphabet = '0123456789ABCDEFGHIJKLMNOPRSTUVZ'
     node_order_by = []
     path = models.CharField(max_length=255, unique=True)
     depth = models.PositiveIntegerField()
